@@ -1,18 +1,18 @@
-﻿1) Start project:
-'''
-    django-admin startproject <project-name>
-'''
+﻿1. Start project:
+```
+    django-admin startproject <projectname>
+```
  
-2) Add apps to project: 
-'''
-    python manage.py startapp appname
-'''
+2. Add apps to project: 
+```
+    python manage.py startapp <appname>
+```
 
-3) Include the app in the list of *INSTALLED_APPS* located 
-in the file *<project-name>/settings.py* :
-'''
+3. Include the app in the list of *INSTALLED_APPS* located 
+in the file *<project-name>/settings.py* 
+```
     #...
     INSTALLED_APPS = [
         "appname.apps.AppnameConfig"
-        ...
-'''
+        ...]
+```
