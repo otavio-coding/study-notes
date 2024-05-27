@@ -1,5 +1,5 @@
 ## Creating a Project
- 1. Start project:
+1. Start project:
 ```
     django-admin startproject <projectname>
 ```
